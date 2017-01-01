@@ -1,6 +1,7 @@
+# Mystery Quad 1.3.0
 ## Welcome to Mystery Quad library
 
-MQ library is an easy way to control your ESCs using Raspberry Pi. MQ can control 4 motors simultanous, everyone at a diferent speed, for example. With MQ you can calibrate and initiate ESCs, make a test and sure.. control all motors. MQ is clean and easy to use.
+MQ library is an easy way to control your ESCs using Raspberry Pi. MQ can control 4 motors simultanous, everyone at a diferent speed. With MQ you can calibrate and initiate ESCs, make a test and sure.. control all motors. MQ is clean and easy to use.
 
 - Product: Mystery Quad library
 - Version: 1.3.0
@@ -10,16 +11,8 @@ MQ library is an easy way to control your ESCs using Raspberry Pi. MQ can contro
 - Copyright (c) 2017 PabloIuly3
 
 ### Use MQ library
-- How can I calibrate my ESCs? 
 
-Easy.. call this funtion and wait to finish the process: `calibrate()`
-
-- How can I initiate my ESCs?
-
-Before you can initiate ESCs with this: `initialization()`
-
-- How can I stop
-
+``
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
