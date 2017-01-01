@@ -1,8 +1,24 @@
-## Welcome to GitHub Pages
+## Welcome to Mystery Quad library
 
-You can use the [editor on GitHub](https://github.com/PabloIuly3/mystery-quad/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+MQ library is an easy way to control your ESCs using Raspberry Pi. MQ can control 4 motors simultanous, everyone at a diferent speed, for example. With MQ you can calibrate and initiate ESCs, make a test and sure.. control all motors. MQ is clean and easy to use.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- Product: Mystery Quad library
+- Version: 1.3.0
+- Author: PabloIuly3
+- Year: 2017
+- License: MIT License
+- Copyright (c) 2017 PabloIuly3
+
+### Use MQ library
+- How can I calibrate my ESCs? 
+
+Easy.. call this funtion and wait to finish the process: `calibrate()`
+
+- How can I initiate my ESCs?
+
+Before you can initiate ESCs with this: `initialization()`
+
+- How can I stop
 
 ### Markdown
 
