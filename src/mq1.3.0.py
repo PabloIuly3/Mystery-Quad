@@ -475,6 +475,7 @@ def control(command):
 		
 # Simple example for use MQ #		
 gpio()
+
 a = input("Do you want to calibrate and initiate ESCs? [recommanded] (y/n)")
 if a == "y":
 	calibrate()
