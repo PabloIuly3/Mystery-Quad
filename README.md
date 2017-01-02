@@ -1,46 +1,63 @@
-# Mystery Quad 1.3.0
-## Welcome to Mystery Quad library
-
-MQ library is an easy way to control your ESCs using Raspberry Pi. MQ can control 4 motors simultanous, everyone at a diferent speed. With MQ you can calibrate and initiate ESCs, make a test and sure.. control all motors. MQ is clean and easy to use.
-
+# Mystery Quad library
 - Product: Mystery Quad library
-- Version: 1.3.0
+- Newest version: 1.3.0
 - Author: PabloIuly3
-- Year: 2017
 - License: MIT License
 - Copyright (c) 2017 PabloIuly3
 
-### Use MQ library
+## Mystery Quad  1.3.0
+### General functions
+`calibrate()` `initialization()` `test()` `stop()` `exit()` `gpio()` `help()`
 
-``
-### Markdown
+1. calibrate ESCs
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+2. make initialization for ESCs
 
+3. make a test before fly
+
+4. stop the motors
+
+5. stop the motors and exit
+
+6. set GPIO PINs to send data
+
+7. show help menu
+
+### Control function
+- Syntax: `control(command)`
+
+`control(up)` `control(down)` `control(m1)` `control(m2)` `control(m3)` `control(m4)`
+
+1. increase speed for all motors
+
+2. decrease speed for all motors
+
+3. increase/decrease speed for motor one
+
+4. increase/decrease speed for motor two
+
+5. increase/decrease speed for motor three
+
+6. increase/decrease speed for motor four
+
+
+## Simple example for usage
 ```markdown
-Syntax highlighted code block
+gpio()
 
-# Header 1
-## Header 2
-### Header 3
+a = input("Do you want to calibrate and initiate ESCs? [recommanded] (y/n)")
+if a == "y":
+	calibrate()
+	initialization()
 
-- Bulleted
-- List
+b = input("Do you want to make a test before fly? (y/n)")
+if b == "y":
+	test()
+	
+print "Ready to fly!"
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+repeat = 1
+while repeat == 1:
+	c = input("Enter command to do: ")
+	control(c)
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/PabloIuly3/mystery-quad/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
