@@ -1,10 +1,31 @@
 # Mystery Quad library
 - Product: Mystery Quad library
-- File: [mq1.3.0.py](https://raw.githubusercontent.com/PabloIuly3/mystery-quad/master/src/mq1.3.0.py)
-- Newest version: 1.3.0
+- File: [mq1.3.6.py](https://raw.githubusercontent.com/PabloIuly3/mystery-quad/master/src/mq1.3.6.py)
+- Newest version: 1.3.6
 - Author: PabloIuly3
 - License: MIT License
 - Copyright (c) 2017 PabloIuly3
+
+## Mystery Quad  1.3.6
+### Newest control functions in 1.3.6 version
+- Syntax: `control(command)`
+
+`control(forward)` `control(backward)` `control(left)` `control(right)`
+
+1. move to forward
+
+2. move to backward
+
+3. move to left
+
+4. move to right
+
+### Orientation and motors position
+`FRONT ^`
+
+`MOTOR 1` | `MOTOR 2`
+
+`MOTOR 3` | `MOTOR 4`
 
 ## Mystery Quad  1.3.0
 ### General functions
