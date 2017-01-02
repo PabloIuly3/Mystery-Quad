@@ -272,6 +272,11 @@ def help():
 	print "Copyright (c) 2017 PabloIuly3"
 	print "#########################################\n"
 	
+	print "ORIONTATION"
+	print "FRONT   ^"
+	print "MOTOR 1 | MOTOR 2"
+	print "MOTOR 3 | MOTOR 4\n"
+	
 	print "Command:"
 	print "-calibrate: calibrate ESCs"
 	print "-initialization: make initialization for ESCs"
