@@ -1,5 +1,6 @@
 # Mystery Quad library
 - Product: Mystery Quad library
+- File: `src/mq1.3.0.py`
 - Newest version: 1.3.0
 - Author: PabloIuly3
 - License: MIT License
