@@ -281,7 +281,11 @@ def help():
 	
 	print "For control:"
 	print "-up: increase speed for all motors"
-	print "-down: decrease speed for all motors"
+	print "-down: decrease speed for all motors\n"
+	print "-forward: move to forward"
+	print "-backward: move to backward"
+	print "-left: move to left"
+	print "-right: move to right\n"
 	print "-m1: increase/decrease speed for motor one"
 	print "-m2: increase/decrease speed for motor two"
 	print "-m3: increase/decrease speed for motor three"
@@ -314,7 +318,8 @@ def control(command):
 	elif command == "exit":
 		exit()
 	elif command == "stop":
-		stop()		
+		stop()	
+		
 	elif command == "up":
 		print "Current speed: ", m1val1, m2val1, m3val1, m4val1
 		m1val2 = input("Increase speed at: ")
